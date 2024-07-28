@@ -7,7 +7,12 @@
     text-align: center;
     text-decoration: none;
 }
-
+.bol{
+    font-style: italic;
+}
+.none{
+    text-decoration: none;
+}
 .allDay{
     margin: 0 30px;
     text-align: center;
