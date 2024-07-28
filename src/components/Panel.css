@@ -19,5 +19,8 @@
   .days{
     display: flex;
     flex-wrap: wrap;
-    margin:40px
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }

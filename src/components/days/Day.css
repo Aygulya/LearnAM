@@ -64,8 +64,11 @@
     opacity: 1; /* Показываем только видимые страницы */
 }
 .buttonsBook{
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: flex-start;
+    /* width: 100%; */
+    align-items: center;
+    flex-direction: column;
 }
 .book{
     display: flex;
@@ -79,7 +82,7 @@
     height: 20px;
     border: none;
     background: none;
-    margin:50px;
+    margin-top:50px;
 }
 /* .next{
     margin-left:20px;

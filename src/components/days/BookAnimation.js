@@ -23,11 +23,14 @@ const BookAnimation = () => {
 //     
 return (
     <div className='book'>
-                {/* <div className='buttonsBook'> */}
+                <div className='buttonsBook'> 
         <button onClick={prev} className='prev'>
         <FontAwesomeIcon icon={faCircleArrowLeft} className='arrow'/>
         </button>
-        {/* </div> */}
+        <button onClick={next} className='next'>
+        <FontAwesomeIcon icon={faCircleArrowRight} className='arrow'/>
+        </button>
+         </div> 
         <div className="bookContainer">
         {springs.map((props, i) => (
             <animated.img
@@ -40,9 +43,7 @@ return (
         ))}
         </div>
         {/* <div className='buttonsBook'> */}
-        <button onClick={next} className='next'>
-        <FontAwesomeIcon icon={faCircleArrowRight} className='arrow'/>
-        </button>
+
         {/* </div> */}
     </div>
 );
