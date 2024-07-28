@@ -7,9 +7,12 @@ import i2 from '../assets/day5/2.jpg'
 import i3 from '../assets/day5/3.jpg'
 import i4 from '../assets/day5/4.jpg'
 import i5 from '../assets/day5/5.jpg'
+import Header from '../Header';
 const Day5 = () =>{
 
     return(
+        <>
+                            <Header currentDay={5} /> 
         <div className= "allDay">
             <h1>ЧАТЫ </h1>
            <p className='textDay'>
@@ -237,6 +240,7 @@ DELETED - карт заблокирована, на ней баланса, ло�
 <img src={i5}/>
 <ButtonNP currentDay={5}/>
         </div>
+        </>
     )
 }
 

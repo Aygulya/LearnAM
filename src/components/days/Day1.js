@@ -5,9 +5,13 @@ import chats from '../assets/image/chats.png'
 import BookAnimation from './BookAnimation'
 import ButtonNP from '../buttonNP'
 import Table from './tableChats'
+import Header from '../Header';
 const Day1 = () =>{
 
     return(
+        <>
+                            <Header currentDay={1} /> 
+                           
         <div className= "allDay">
             
          <h1 className='h'> Вступление </h1>  
@@ -151,6 +155,7 @@ const Day1 = () =>{
 <ButtonNP currentDay={1}/>
 
         </div>
+        </>
     )
 }
 

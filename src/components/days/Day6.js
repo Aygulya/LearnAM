@@ -1,11 +1,24 @@
 import React from 'react'
 import "./Day.css"
-
-import orOrBl from '../assets/image/orange.png'
+import i1 from '../assets/day6/1.jpg'
+import i2 from '../assets/day6/2.jpg'
+import i3 from '../assets/day6/3.jpg'
+import i4 from '../assets/day6/4.jpg'
+import i5 from '../assets/day6/5.jpg'
+import i6 from '../assets/day6/6.jpg'
+import i7 from '../assets/day6/7.jpg'
+import i8 from '../assets/day6/8.jpg'
+import i9 from '../assets/day6/9.jpg'
+import i10 from '../assets/day6/10.jpg'
+import i11 from '../assets/day6/11.jpg'
+import i12 from '../assets/day6/12.jpg'
 import ButtonNP from '../buttonNP'
+import Header from '../Header';
 const Day6 = () =>{
 
     return(
+        <>
+                            <Header currentDay={6} /> 
         <div className= "allDay">
  <h3>ВЕРИФИКАЦИЯ </h3>
             <p className='textDay'>
@@ -126,6 +139,7 @@ const Day6 = () =>{
 </p>
 <ButtonNP currentDay={6}/>
         </div>
+        </>
     )
 }
 

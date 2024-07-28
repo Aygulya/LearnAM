@@ -5,8 +5,11 @@ import img1 from "../assets/day4/1.jpg"
 import img2 from "../assets/day4/2.jpg"
 import img3 from "../assets/day4/3.jpg"
 import img4 from "../assets/day4/4.jpg"
+import Header from '../Header';
 const Day4 = () => {
     return (
+        <>
+                            <Header currentDay={4} /> 
         <div className="allDay"> 
             <h1>ОТДЕЛ ПО РАБОТЕ С ПАРТНЕРАМИ</h1>
             <p className='textDay'>
@@ -74,6 +77,7 @@ const Day4 = () => {
            
             <ButtonNP currentDay={4} />
         </div>
+        </>
     );
 }
 

@@ -21,10 +21,8 @@ import Day2 from './components/days/Day2';
 import FirstPage from './components/FirstPage';
 import RegisterComponent from './components/login/Registration';
 import LoginComponent from './components/login/LogIn';
-import Dostup from './components/Dostup';
 import DeleteUser from './components/login/DeleteUser';
 import UserManagement from './components/UserManagment';
-// import { AuthProvider } from './components/utils/AuthContext';
 import Ozhidaem from './components/Ozhidaem';
 import Prosmotr from './components/ProsmDni';
 import BookAnimation from './components/days/BookAnimation';
@@ -48,7 +46,7 @@ function App() {
           <Route path="/test" element={<TestModule />} /> {/* Removed element prop */}
           {/* {/* <Route path='managment' element={<UserManagement/>}/> */}
        <Route path="/admPanel" element = {<AdmPanel/>}/>
-      //  <Route path='/admPanel/dostup' element = {<Dostup/>}/> 
+
       <Route path="/prosmotr" element={<Prosmotr />} />
       <Route path="/prosmotr/day1" element={<Day1 />} />
                     <Route path="/prosmotr/day2" element={<Day2 />} />

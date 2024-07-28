@@ -3,8 +3,21 @@
     background: #100f59;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 .home-link{
-    margin: 10px;
+    font-size: 40px;
     color: white;
+}
+.rightH{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-link{
+    margin-left: 60px;
 }

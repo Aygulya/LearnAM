@@ -7,19 +7,11 @@ import './learnStyles.css'
 import logo from '../components/assets/image/logo.png';
 function MainScreen() {
   const navigate = useNavigate();
-  // const { user } = useContext(AuthContext); // Получаем пользователя из контекста аутентификации
 
-  // Переход на страницу обучения
   const goToLearn = () => {
     navigate('/learn');
   };
-  // const { isAdmin } = useContext(AuthContext); // Получаем значение isAdmin из контекста аутентификации
-
-  //  useEffect(() => {
-  //   // Проверяем, является ли текущий пользователь администратором
-  //   console.log('isAdmin:', isAdmin);
-  // }, [isAdmin]); // Вызываем useEffect при изменении значения isAdmin
-  // Проверяем, авторизован ли пользователь, и отображаем MainScreen только если пользователь авторизован
+  
   return (
     <div className='first'>
     <div className="main-screen">
@@ -32,18 +24,8 @@ function MainScreen() {
         <Link to='/prosmotr'>
       <div className='prosmotr'>Просмотреть все дни</div>
       </Link>
-        {/* <button onClick={toggleSidebar} className="sidebar-button">☰</button> */}
         </div>
       </div>
-      {/* {isAdmin && ( // Условно отображаем ссылку на админ-панель только если пользователь администратор // className="home-link"
-      //  <button className='butAdmin'>
-      //    <Link to='/admPanel' className='textBut'> 
-        
-      //   Админ панель
-      // </Link>
-      //  </button>
-      )} */}
-      {/* {user ? ( // Проверяем, есть ли пользователь */}
 
           <h1 className='textMain'>Добро пожаловать на страницу обучения</h1>
           <p className='textMain'>Тут ты найдешь персональный план обучения и многое другое.</p>
