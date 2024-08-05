@@ -19,7 +19,7 @@ const Prosmotr = () => {
                     <h3>Список уровней</h3>
                 </p>
             </Link>
-            <Link to='/information/getDoc' className='day'>
+            <Link to='/information/getDocs' className='day'>
                 <p>
                     <h3>Как получить документы в приложениях банков?</h3>
                 </p>

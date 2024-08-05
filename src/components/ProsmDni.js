@@ -59,6 +59,12 @@ const Prosmotr = () => {
                     <span className='bold'>Тема: крипта</span>
                 </p>
             </Link>
+            <Link to='/information' className='day'>
+                <p>
+                    <h3>Дополнительные материалы</h3>
+                    <span className='bold'>Важно и полезно</span>
+                </p>
+            </Link>
             {/* <Link to='/prosmotr/day9' className='day'>
                 <p>
                     <h3>День 9</h3>
