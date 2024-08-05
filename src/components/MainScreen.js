@@ -47,6 +47,9 @@ function MainScreen() {
       <a href='https://admin.pays-pro.com/dashboard'  target="_blank" rel="noopener noreferrer">
       <button className='ssyl'>ДМ</button>
       </a>
+      <Link to={'/information'}>
+      <button className='ssyl'>❗️ПОЛЕЗНЫЕ МАТЕРИАЛЫ❗️</button>
+      </Link>
           </div>
           </div>
           {/* <button onClick={goToLearn}>Перейти к обучению</button> */}
