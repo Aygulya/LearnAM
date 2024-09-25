@@ -22,6 +22,8 @@ import img19 from "../assets/day2/19.jpg";
 import img20 from "../assets/day2/20.jpg";
 import ButtonNP from '../buttonNP';
 import Header from '../Header';
+import FlipBook from "../../inform/FlipBook";
+import FlipBook2 from "../../inform/FlipBook2";
 import "./Day.css";
 
 const Day3 = () => {
@@ -88,6 +90,8 @@ const Day3 = () => {
             <p className='textDay8'>
                 <img src={img20} alt=""/>
             </p>
+            <FlipBook />
+            <FlipBook2/>
             <ButtonNP currentDay={3} />
         </div>
         </>
