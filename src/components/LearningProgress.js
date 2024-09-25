@@ -68,7 +68,7 @@ import './learnStyles.css';
 import { useNavigate, Link } from 'react-router-dom';
 
 function getCurrentDay() {
-    const startDate = new Date('2024-07-25'); 
+    const startDate = new Date('2024-09-25'); 
     const today = new Date();
     const daysPassed = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
     const weekendsPassed = Math.floor((daysPassed + startDate.getDay()) / 7) * 2;

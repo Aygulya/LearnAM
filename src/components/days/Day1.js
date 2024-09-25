@@ -80,6 +80,27 @@ const Day1 = () =>{
 сотрудники TaC) 
     </li>
 </ul>
+<h3>Организационные моменты</h3>
+<ul className='textListDay'>
+    <li>
+    1. Минимизируем использование нецензурной лексики.
+    </li>
+    <li>
+    2. Приветствуем всех, независимо от того, знакомы мы с человеком или нет.  
+        </li>
+        <li>
+        3. Не оскорбляем и не обсуждаем других сотрудников за их спиной.    
+        </li>
+        <li>
+        4. Воздерживаемся от обсуждения политических, религиозных и личных тем (например, заработная плата, здоровье, критика коллег). 
+        </li>
+        <li>
+        5. Избегаем конфликтные ситуации. 
+        </li>
+        <li>
+        6. Будьте осторожны с юмором: шутки не должны высмеивать социальные группы или людей по каким-либо признакам. Также следует избегать "чёрного" юмора.
+        </li>
+</ul>
 <div className='textDay8'>
 
     <BookAnimation/>
@@ -91,9 +112,43 @@ const Day1 = () =>{
 </p>
 <h3>Термины</h3>
 <p className='textDay'>
-<span className='bold'> Toss a coin </span>-название платёжной системы (не знает агент, знаем мы и мерчант)
-</p>
+<h3>PaysPro:</h3>
 <p className='textDay'>
+<span className='bold'> Order ID </span>- идентификатор конкретного ордера - знаем только мы и агент.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Invoice ID </span>- идентификатор конкретной заявки (есть и в ТаС) - знаем только мы. Единственное на данный момент связующее с ТаС.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Agent ID </span>- личный идентификатор агента знаем только мы.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Agent Card ID </span>- идентификатор конкретной карты агента знаем только мы.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Agent Card Number </span>- номер карты агента - полный номер знает юзер (которому подобралась эта карта в конкретной заявке), агент, и мы, а также может узнать мерчант.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Recipient Card Number </span>- номер карты юзера (есть и в ТаС) - кроме юзера знаем мы, мерчант, и агент, получивший ордер на выплату по этой карте.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Ticket ID </span>- идентификатор тикета. Знаем только мы.
+<br/></p>
+<h3>TaC:</h3>
+<p className='textDay'>
+<span className='bold'> Invoice ID </span>- можно найти и в DM. На данный момент единственное связующее с ДМ.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Merchant Invoice ID </span>- идентификатор конкретной заявки юзера - знаем только мы, мерчант, и сам юзер.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Merchant User ID </span>- личный идентификатор конкретного пользователя мерчанта - знаем только мы, мерчант, и сам юзер.
+<br/>
+</p><p className='textDay'>
+<span className='bold'> Recipient Card Number </span>- карта юзера(можно увидеть в PP)
+</p>
+</p>
+{/* <p className='textDay'>
 <span className='bold'>Pays Pro </span>- название приложения, чат-бота и сайта. (Знает агент и мы, не знает мерчант)
 </p><p className='textDay'>
 <span className='bold'> Merchant </span>- ресурс, на котором мы предоставлены как платёжная система.
@@ -133,7 +188,7 @@ const Day1 = () =>{
     <p className='textDay'>
 <span className='bold'> Ticket </span>- это инвойс, требующий внимания, так как система сообщает,
 что что-то пошло не так.
-</p>
+</p> */}
 <p className='textDay'>
 <span className='bold'> Чат «синей» вавады </span>- рабочий чат в котором оператор обрабатывает
 обращение от мерчант о просроченном депозите.

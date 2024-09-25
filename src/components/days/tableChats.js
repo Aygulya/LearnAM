@@ -2,6 +2,7 @@
 import React from 'react';
 import img1 from "../assets/day1/table/1.jpg";
 import img2 from "../assets/day1/table/2.jpg";
+import img11 from "../assets/day1/table/10.jpg";
 import img3 from "../assets/day1/table/3.jpg";
 import img4 from "../assets/day1/table/4.jpg";
 import img5 from "../assets/day1/table/5.jpg";
@@ -16,9 +17,10 @@ const Table = () => {
     { img: img1, text: 'News For Managers - информационный канал партнерского отдела' },
     { img: img2, text: 'Новости - информационный канал проекта' },
     { img: img3, text: 'ОФИС-ГРУЗИЯ-ИНФО - информационный канал офиса' },
+    { img: img11, text: 'Офис Пушкина - информационный канал офиса на улице Пушкина' },
     { img: img4, text: 'Quality - канал отдела контроля качества' },
     { img: img4, text: 'Quality chat - чат для обсуждения и отработки ошибок' },
-    { img: img5, text: 'Account Managers - внутренний чат отдела по работе с партнерами' },
+    { img: img5, text: 'PP Account Managers - внутренний чат отдела по работе с партнерами' },
     { img: img6, text: 'Account Managers Support - чат с поддержкой' },
     { img: img7, text: 'Toss-a-Coin VAVADA (поиск депозитов) - чат поддержки и мерчанта («синяя»)' },
     { img: img9, text: 'ХОРОШЕЕ НАСТРОЕНИЕ!!! - информационный чат бухгалтерии' },
