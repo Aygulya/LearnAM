@@ -183,6 +183,7 @@ import Prosmotr from './components/ProsmDni';
 import BookAnimation from './components/days/BookAnimation';
 import Information from './components/Information';
 import Limits from './inform/InList1';
+import Great from './inform/InList7';
 import ListGrades from './inform/InList2';
 import GetDocs from './inform/InList3';
 import PhotoShop from './inform/InList4';
@@ -211,6 +212,7 @@ function App() {
           <Route path="/prosmotr/day10" element={<Day10 />} />
           <Route path="/information" element={<Information />} />
           <Route path="/information/limits" element={<Limits />} />
+          <Route path="/information/great" element={<Great />} />
           <Route path="/information/listGrades" element={<ListGrades />} />
           <Route path="/information/getDocs" element={<GetDocs />} />
           <Route path="/information/photoshop" element={<PhotoShop />} />

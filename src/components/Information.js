@@ -9,6 +9,11 @@ const Prosmotr = () => {
         <>
   <Header currentDay={0}/>
         <div className='days'>
+        <Link to='/information/great' className='day'>
+                <p>
+                    <h3>Важная информация о трудоустройстве</h3>
+                </p>
+            </Link>
             <Link to='/information/limits' className='day'>
                 <p>
                     <h3>Лимиты банков в системе</h3>
