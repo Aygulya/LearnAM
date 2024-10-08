@@ -105,11 +105,11 @@ const Day1 = () =>{
 
     <BookAnimation/>
 </div>
-<div className='otstup'> <h3 className='h'>Иерархия</h3></div>
+{/* <div className='otstup'> <h3 className='h'>Иерархия</h3></div>
 
 <p className='textDay8'>
 <img src={img1} alt="Иерархия" />
-</p>
+</p> */}
 <h3>Термины</h3>
 <p className='textDay'>
 <h3>PaysPro:</h3>
